@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="/style.css">
+
+<div id="fullBg" />
+
+<div class="container">
+  <form action="verify" method="post" class="form-signin">       
+      <h1 class="form-signin-heading">Please Login</h1>
+      <h4 class="text-danger fw-bold">{{msg}}</h4>
+      <label for="username">Enter Username:</label>
+      <input type="text" class="form-control" name="username" placeholder="Username" required="" autofocus="" />
+      <label for="password">Enter your password:</label>
+      <input type="password" class="form-control" name="password" placeholder="Password" required=""/>     
+      
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Log in</button>   
+    </form>
+  <p class="text-center sign-up text-dark"><strong>Sign up</strong> for a new account</p>
+  <h4 class="text-center text-success fw-bold">{{outmsg}}</h4>
+</div>
+

@@ -1,0 +1,25 @@
+body {
+    background-color: #f4f4f9;
+}
+.hero-section {
+    background: url('./images/big-pic.avif') no-repeat center center;
+    background-size: cover;
+    height: 60vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text {
+    text-align: center;
+}
+.artwork-card img {
+    max-height: 250px;
+    object-fit: cover;
+}
+.card-deck {
+    margin-top: 30px;
+}
+.logout-btn {
+    margin-right: auto;
+}
