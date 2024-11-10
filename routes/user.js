@@ -39,7 +39,7 @@ user.get("/home", (req, res) =>{
 
 user.get("/logout", (req,res) =>{
     req.session.destroy();
-    res.render("login", {outmsg:"Logedout successfully..."});
+    res.render("login", {outmsg:"Logged out successfully..."});
 })
 
 
